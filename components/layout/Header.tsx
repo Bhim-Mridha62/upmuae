@@ -4,21 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { ChevronDown, Search, Menu, X } from "lucide-react";
 
-/* Custom Brand & Social SVG Icons */
-function UpmGriffinIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 48 48"
-      fill="currentColor"
-      className={className}
-      aria-hidden="true"
-    >
-      {/* Griffin Crest Silhouette */}
-      <path d="M24 4c-1.8 0-3.4.8-4.5 2.1-.8-.4-1.8-.6-2.8-.4-2.1.4-3.7 2.2-3.7 4.3 0 .7.2 1.4.5 2C11.6 12.8 10 14.7 10 17c0 2 1.2 3.8 3 4.6v2.8c0 3.2 2 6 5 7.1V34c-2.2.5-4 2.3-4.5 4.5-.3 1.2.2 2.5 1.3 3.1.6.3 1.2.4 1.8.4 1.8 0 3.5-.9 4.4-2.5V42c0 1.1.9 2 2 2h2c1.1 0 2-.9 2-2v-2.5c1 1.6 2.7 2.5 4.4 2.5.6 0 1.2-.1 1.8-.4 1.1-.6 1.6-1.9 1.3-3.1-.5-2.2-2.3-4-4.5-4.5v-2.5c3-1.1 5-3.9 5-7.1v-2.8c1.8-.8 3-2.6 3-4.6 0-2.3-1.6-4.2-3.5-5 .3-.6.5-1.3.5-2 0-2.1-1.6-3.9-3.7-4.3-1-.2-2 0-2.8.4C27.4 4.8 25.8 4 24 4zm-5.5 12c1.4 0 2.5 1.1 2.5 2.5S19.9 21 18.5 21 16 19.9 16 18.5s1.1-2.5 2.5-2.5zm11 0c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5 1.1-2.5 2.5-2.5z" />
-    </svg>
-  );
-}
-
+/* Custom Social SVG Icons */
 function FacebookIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
@@ -190,32 +176,18 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-dark-green text-white shadow-md">
       <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-10">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between">
           {/* Left: UPM Brand Logo */}
           <Link
             href="/"
             className="flex items-center gap-3.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-green-accent rounded-lg p-1"
           >
-            {/* Griffin Icon & UPM Stacked */}
-            <div className="flex flex-col items-center justify-center">
-              <UpmGriffinIcon className="w-7 h-7 text-white group-hover:text-green-accent transition-colors duration-200" />
-              <span className="text-sm font-bold tracking-widest font-serif leading-none mt-0.5">
-                UPM
-              </span>
-            </div>
-
-            {/* Vertical Divider */}
-            <div className="w-[1px] h-8 bg-white/20 group-hover:bg-white/40 transition-colors" />
-
-            {/* Brand Text */}
-            <div className="flex flex-col">
-              <span className="text-[13px] font-bold tracking-[0.18em] uppercase text-white/95 leading-tight">
-                UNION
-              </span>
-              <span className="text-[11px] font-medium tracking-[0.22em] uppercase text-white/70 leading-tight">
-                PAPER MILLS
-              </span>
-            </div>
+            {/* Brand Logo */}
+            <img
+              src="/logo.png"
+              alt="Union Paper Mills UAE"
+              className="h-24 w-auto group-hover:opacity-90 transition-opacity duration-200"
+            />
           </Link>
 
           {/* Center: Desktop Navigation Menu */}
@@ -232,7 +204,7 @@ export default function Header() {
                   <Link
                     key={item.title}
                     href={item.href || "/contact"}
-                    className="ml-2 px-5 py-2 rounded-full border border-white/40 text-xs font-semibold tracking-wider uppercase text-white hover:bg-white hover:text-dark-green transition-all duration-200 shadow-sm"
+                    className="ml-2 px-5 py-2 rounded-full border border-white/40 text-base font-semibold tracking-wider uppercase text-white hover:bg-white hover:text-dark-green transition-all duration-200 shadow-sm"
                   >
                     Contact Us
                   </Link>
@@ -255,7 +227,7 @@ export default function Header() {
                         setOpenDropdown(isOpen ? null : item.title)
                       }
                       aria-expanded={isOpen}
-                      className={`inline-flex items-center gap-1.5 px-3 py-2 text-[13px] font-medium tracking-wider text-white/90 hover:text-white rounded-md transition-colors ${
+                      className={`inline-flex items-center gap-1.5 px-3 py-2 text-base font-medium tracking-wider text-white/90 hover:text-white rounded-md transition-colors ${
                         isOpen ? "text-green-accent" : ""
                       }`}
                     >
@@ -271,7 +243,7 @@ export default function Header() {
                   ) : (
                     <Link
                       href={item.href || "#"}
-                      className="px-3 py-2 text-[13px] font-medium tracking-wider text-white/90 hover:text-white rounded-md transition-colors"
+                      className="px-3 py-2 text-base font-medium tracking-wider text-white/90 hover:text-white rounded-md transition-colors"
                     >
                       {item.title}
                     </Link>

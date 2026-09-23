@@ -25,7 +25,7 @@ const WhoWeAreSection = () => {
             </p>
           </div>
 
-          <button className="inline-flex items-center gap-2 text-[#122A1C] font-bold text-sm md:text-base hover:opacity-75 transition-opacity group">
+          <button className="inline-flex items-center gap-2 text-dark-green font-bold text-sm md:text-base hover:opacity-75 transition-opacity group">
             Explore Our Impact
             <svg
               className="w-4 h-4 transform group-hover:translate-x-1 transition-transform"

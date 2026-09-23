@@ -65,14 +65,11 @@ export default function Footer() {
             <div className="lg:col-span-4">
               {/* UPM Logo */}
               <div className="mb-4">
-                <div className="text-white">
-                  <h2 className="text-4xl font-bold tracking-wider leading-none">
-                    UPM
-                  </h2>
-                  <p className="text-[10px] tracking-[0.25em] uppercase text-white/70 mt-0.5">
-                    UNION PAPER MILLS
-                  </p>
-                </div>
+                <img
+                  src="/logo.png"
+                  alt="Union Paper Mills UAE"
+                  className="h-16 w-auto"
+                />
               </div>
 
               <p className="text-white/60 text-sm leading-relaxed max-w-xs">

@@ -86,7 +86,7 @@ export default function WhyUPM() {
   ];
 
   return (
-    <section className="bg-[#f7f5f0] text-[#1b3b2b] py-20 px-6 md:px-16 border-b border-black/5">
+    <section className="bg-[#f7f5f0] text-dark-green py-20 px-6 md:px-16 border-b border-black/5">
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="mb-12">
@@ -100,12 +100,12 @@ export default function WhyUPM() {
           {features.map((item, index) => (
             <div key={index} className="flex flex-col items-start group">
               {/* Big Icon Container */}
-              <div className="mb-6 flex h-[64px] w-[64px] items-center justify-center  text-[#1b3b2b]">
+              <div className="mb-6 flex h-[64px] w-[64px] items-center justify-center  text-dark-green">
                 <span className="text-[32px] leading-none">{item.icon}</span>
               </div>
 
               {/* Title */}
-              <h3 className="text-[15px] font-semibold tracking-wide mb-3 text-[#1b3b2b] font-sans uppercase">
+              <h3 className="text-[15px] font-semibold tracking-wide mb-3 text-dark-green font-sans uppercase">
                 {item.title}
               </h3>
 

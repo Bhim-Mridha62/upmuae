@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "dark-green": "#0d2218",
-        forest: "#0d2218",
-        "forest-light": "#143026",
-        "forest-mid": "#1a3524",
+        "dark-green": "#273481",
+        forest: "#273481",
+        "forest-light": "#32409a",
+        "forest-mid": "#222e79",
         "green-accent": "#7db85c",
         "green-line": "#5a8a3c",
         cream: "#f4efe8",

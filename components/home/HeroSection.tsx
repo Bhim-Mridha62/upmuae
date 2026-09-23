@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="text-[#1a1a1a] selection:bg-[#122A1C] selection:text-white antialiased relative overflow-hidden">
+    <section className="text-[#1a1a1a] selection:bg-dark-green selection:text-white antialiased relative overflow-hidden">
       {/* 1. Full-screen Background Grid */}
       <div
         className="absolute inset-0 pointer-events-none opacity-40"
@@ -21,7 +21,7 @@ export default function HeroSection() {
           {/* LEFT */}
           <div className="flex-1 w-full">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white border border-black/5 rounded-full text-xs font-semibold tracking-widest uppercase text-[#122A1C]">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white border border-black/5 rounded-full text-xs font-semibold tracking-widest uppercase text-dark-green">
               <span>♻️</span> Circular Economy Solutions
             </div>
 
@@ -29,7 +29,7 @@ export default function HeroSection() {
             <h1 className="mt-6 font-serif font-bold text-[#1a1a1a] text-4xl md:text-6xl lg:text-[4.7rem] leading-[0.88] tracking-tight">
               TURNING WASTE
               <br />
-              <span className="font-light italic text-[#2D5A3D] lowercase tracking-normal">
+              <span className="font-light italic text-dark-green lowercase tracking-normal">
                 into sustainable
               </span>
               <br />
@@ -46,7 +46,7 @@ export default function HeroSection() {
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href="#"
-                className="group inline-flex items-center gap-1.5 bg-[#122A1C] text-white px-5 py-2.5 rounded-full font-medium text-xs hover:bg-black transition-colors"
+                className="group inline-flex items-center gap-1.5 bg-dark-green text-white px-5 py-2.5 rounded-full font-medium text-xs hover:bg-black transition-colors"
               >
                 Explore Solutions
                 <svg
@@ -127,13 +127,13 @@ export default function HeroSection() {
               </div>
               <div className="mt-3 flex items-end gap-1 h-8">
                 <div className="w-full bg-[#E8F5E9] rounded-full h-2">
-                  <div className="bg-[#2D5A3D] h-2 rounded-full w-[78%]" />
+                  <div className="bg-dark-green h-2 rounded-full w-[78%]" />
                 </div>
               </div>
             </div>
 
             {/* Floating Card - Bottom */}
-            <div className="absolute -bottom-6 -left-4 md:-left-6 bg-[#122A1C] rounded-[1.5rem] p-6 text-white w-64 md:w-72 shadow-xl">
+            <div className="absolute -bottom-6 -left-4 md:-left-6 bg-dark-green rounded-[1.5rem] p-6 text-white w-64 md:w-72 shadow-xl">
               <div className="w-8 h-8 rounded-full bg-white/10 grid place-items-center mb-4">
                 ♻️
               </div>

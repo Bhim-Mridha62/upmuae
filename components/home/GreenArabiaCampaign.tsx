@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GreenArabiaCampaign() {
   return (
-    <section className="bg-[#122A1C] text-white py-20 px-6">
+    <section className="bg-dark-green text-white py-20 px-6">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         {/* Left Side: 3 Image Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full lg:w-3/5">
