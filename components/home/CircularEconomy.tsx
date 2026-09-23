@@ -181,14 +181,7 @@ export default function CircularEconomy() {
       className="w-full bg-[#f7f5f0] flex flex-col items-center justify-center py-[84px] px-8"
       aria-label="Circular Economy"
     >
-      <style>{`@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Playfair+Display:wght@500&display=swap');`}</style>
-      <h1
-        className="text-[#F3F1E8] text-center uppercase tracking-[0.18em] mb-[64px]"
-        style={{
-          fontFamily: "'Cormorant Garamond', serif",
-          fontSize: "clamp(26px, 3.2vw, 38px)",
-        }}
-      >
+      <h1 className="text-dark-green text-center font-serif text-4xl font-bold uppercase tracking-[0.18em] mb-[64px]">
         Circular Economy
       </h1>
 
