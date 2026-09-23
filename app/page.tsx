@@ -15,11 +15,11 @@ export default function Home() {
       <HeroSection />
       <WhoWeAreSection />
       <OurProducts />
+      <GreenArabiaCampaign />
       <ImpactSection />
-      <CircularEconomy />
+      {/* <CircularEconomy /> */}
       <Newsroom />
       <SustainabilityPillars />
-      <GreenArabiaCampaign />
       <WhyUPM />
       <CTASection />
     </main>

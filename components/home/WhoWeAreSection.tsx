@@ -6,7 +6,7 @@ const WhoWeAreSection = () => {
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-12 md:gap-16 lg:gap-24">
         {/* Left Column: Text Content */}
         <div className="flex-1 flex flex-col items-start w-full">
-          <h2 className="text-4xl md:text-5xl lg:text-[52px] font-serif font-bold text-[#1a1a1a] mb-6 tracking-wide uppercase">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-dark-green mb-6 tracking-wide uppercase">
             Who We Are
           </h2>
 
@@ -47,7 +47,7 @@ const WhoWeAreSection = () => {
         <div className="flex-1 w-full">
           <img
             // Placeholder image matching the corporate meeting vibe
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1000&q=80"
+            src="https://plus.unsplash.com/premium_photo-1682141451054-0d39d62cd17e?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Our Team collaborating in the office"
             className="w-full h-auto object-cover rounded-[2rem] shadow-sm"
           />

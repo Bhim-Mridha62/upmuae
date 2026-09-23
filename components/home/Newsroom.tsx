@@ -31,21 +31,23 @@ const Newsroom = () => {
   return (
     // Note: Replaced the original dark blue with your requested dark green background.
     // If you have a custom 'bg-dark-green' in your tailwind.config.js, you can swap out the hex code below.
-    <section className="bg-dark-green text-white p-4 md:p-12 lg:p-16 font-sans">
+    <section className="bg-white text-black p-4 md:p-12 lg:p-16 font-sans">
       <div className="mx-auto">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide uppercase">
-            Newsroom
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-normal uppercase text-dark-green">
+            News Room
           </h1>
           <a
             href="#"
             className="flex items-center group hover:opacity-80 transition-opacity"
           >
-            <span className="text-sm font-medium mr-3">Visit the newsroom</span>
-            <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
+            <span className="text-sm font-medium mr-3 text-black/70">
+              Visit the news Room
+            </span>
+            <div className="w-8 h-8 rounded-full bg-black/10 flex items-center justify-center group-hover:bg-black/20 transition-colors">
               <svg
-                className="w-4 h-4 text-white"
+                className="w-4 h-4 text-black"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -76,7 +78,7 @@ const Newsroom = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-3 leading-snug">
               Warehouse Sale on Engineering Products
             </h2>
-            <p className="text-sm text-gray-300 leading-relaxed mb-3">
+            <p className="text-sm text-black/70 leading-relaxed mb-3">
               M.A.H.Y. Khoory has launched a limited time warehouse sale,
               offering selected engineering products at highly competitive
               prices across the UAE. With immediate availability on pumps,
@@ -103,7 +105,7 @@ const Newsroom = () => {
                     <h3 className="text-sm md:text-base font-bold mb-2">
                       {item.title}
                     </h3>
-                    <p className="text-xs text-gray-300 leading-relaxed mb-2">
+                    <p className="text-xs text-black/70 leading-relaxed mb-2">
                       {item.description}
                     </p>
                     <a

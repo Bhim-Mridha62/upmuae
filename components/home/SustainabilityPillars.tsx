@@ -25,7 +25,7 @@ export default function SustainabilityPillars() {
   return (
     <section className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-center font-serif text-3xl md:text-4xl font-bold tracking-wider text-[#1a1a1a] mb-16 uppercase">
+        <h2 className="text-center text-3xl md:text-4xl font-bold tracking-wider text-dark-green mb-16 uppercase">
           Our Sustainability Pillars
         </h2>
 
@@ -39,7 +39,7 @@ export default function SustainabilityPillars() {
                   className="w-32 h-auto object-cover"
                 />
               </div>
-              <h3 className="font-serif text-xl font-semibold text-[#1a1a1a] mb-3">
+              <h3 className="text-xl font-semibold text-[#1a1a1a] mb-3">
                 {pillar.title}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed max-w-xs">

@@ -1,34 +1,23 @@
 export const products = [
   {
-    id: "containerboard",
-    title: "Containerboard",
-    description:
-      "Containerboard is essential for corrugated box manufacturing, offering excellent strength and kraft paper characteristics.",
-    image: "/images/products/containerboard.jpg",
+    id: "uniontestliner",
+    title: "Uniontestliner",
+    description: "90 - 200 GSM",
+    image: "https://www.upmuae.com/en/admin/common/file_manager/images/13.jpg",
     link: "#",
   },
   {
-    id: "kraft-paper",
-    title: "Kraft Paper",
-    description:
-      "Environment-friendly craft paper for wrapping and mailing cases.",
-    image: "/images/products/kraft-paper.jpg",
+    id: "unionflute",
+    title: "Unionflute",
+    description: "90 - 175 GSM",
+    image: "https://www.upmuae.com/en/admin/common/file_manager/images/14.jpg",
     link: "#",
   },
   {
-    id: "flute-medium",
-    title: "Flute Medium",
-    description:
-      "Flute Medium contributes to durability, impact resistance, and flat crush strength.",
-    image: "/images/products/flute-medium.jpg",
-    link: "#",
-  },
-  {
-    id: "flute-medium-2",
-    title: "Flute Medium",
-    description:
-      "Flute Medium for winding and cutting, and thermosetting flute cores and tube industries.",
-    image: "/images/products/flute-medium-2.jpg",
+    id: "unioncoreboard",
+    title: "Unioncoreboard",
+    description: "190 - 350 GM",
+    image: "https://www.upmuae.com/en/admin/common/file_manager/images/15.jpg",
     link: "#",
   },
 ];

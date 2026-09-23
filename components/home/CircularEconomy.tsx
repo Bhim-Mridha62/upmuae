@@ -181,7 +181,7 @@ export default function CircularEconomy() {
       className="w-full bg-[#f7f5f0] flex flex-col items-center justify-center py-[84px] px-8"
       aria-label="Circular Economy"
     >
-      <h1 className="text-dark-green text-center font-serif text-4xl font-bold uppercase tracking-[0.18em] mb-[64px]">
+      <h1 className="text-dark-green text-center text-3xl md:text-4xl lg:text-5xl font-normal uppercase tracking-[0.18em] mb-[64px]">
         Circular Economy
       </h1>
 
