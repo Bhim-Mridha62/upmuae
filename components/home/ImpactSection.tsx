@@ -1,15 +1,15 @@
 export default function ImpactSection() {
   return (
-    <section className="w-full bg-dark-green py-16 px-4 flex flex-col items-center justify-center font-serif text-[#F4F3ED]">
+    <section className="w-full bg-white py-16 px-4 flex flex-col items-center justify-center text-[#F4F3ED]">
       {/* Heading */}
-      <h2 className="text-2xl md:text-[28px] tracking-[0.15em] mb-14 font-semibold uppercase text-center">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl text-dark-green font-normal mb-14 uppercase text-center">
         Our Impact
       </h2>
 
       {/* Stats Container */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-12 max-w-6xl w-full">
+      <div className="flex flex-col text-black/70 md:flex-row items-center justify-center gap-10 md:gap-12 max-w-6xl w-full">
         {/* Stat 1 */}
-        <div className="flex flex-col items-center text-center w-40">
+        <div className="flex flex-col items-center text-center w-40 ">
           <span className="text-5xl md:text-[56px] mb-3 font-medium tracking-tight">
             2.5M
           </span>

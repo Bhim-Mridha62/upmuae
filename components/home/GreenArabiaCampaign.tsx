@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GreenArabiaCampaign() {
   return (
-    <section className="bg-dark-green text-white py-20 px-6">
+    <section className="bg-white text-white py-20 px-6">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         {/* Left Side: 3 Image Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full lg:w-3/5">
@@ -26,7 +26,7 @@ export default function GreenArabiaCampaign() {
             <div className="absolute inset-0 bg-gradient-to-b from-green-900/30 via-black/20 to-black/70 pointer-events-none" />
 
             <div className="relative z-10 my-auto">
-              <h4 className="font-serif text-2xl font-bold tracking-wider leading-tight text-white uppercase">
+              <h4 className="text-2xl font-bold tracking-wider leading-tight text-white uppercase">
                 Green
                 <br />
                 Arabia
@@ -54,14 +54,14 @@ export default function GreenArabiaCampaign() {
 
         {/* Right Side: Text Content */}
         <div className="w-full lg:w-2/5">
-          <h3 className="font-serif text-3xl md:text-4xl font-bold tracking-wider uppercase mb-6 text-white">
+          <h3 className="text-3xl md:text-4xl lg:text-5xl font-normal uppercase mb-6 text-dark-green">
             Green Arabia Campaign
           </h3>
-          <p className="text-gray-300 text-sm leading-relaxed mb-4">
+          <p className="text-black/70 text-sm leading-relaxed mb-4">
             Creating a bold national impact by embedding sustainability directly
             into urban development and ecological conservation projects.
           </p>
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-black/70 text-sm leading-relaxed">
             Through strategic partnerships and community-driven initiatives, our
             goal is to build greener cities, restore natural habitats, and
             ensure a sustainable future for upcoming generations.

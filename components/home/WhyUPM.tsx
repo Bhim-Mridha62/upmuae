@@ -90,7 +90,7 @@ export default function WhyUPM() {
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="mb-12">
-          <h2 className="text-2xl md:text-3xl tracking-[0.15em] font-bold font-sans">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal">
             WHY UPM
           </h2>
         </div>
