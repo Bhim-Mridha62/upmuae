@@ -3,7 +3,7 @@ export const products = [
     id: "uniontestliner",
     title: "Uniontestliner",
     description: "90 - 200 GSM",
-    image: "https://www.upmuae.com/en/admin/common/file_manager/images/13.jpg",
+    image: "/images/products/box1.jpg",
     link: "#",
   },
   {
