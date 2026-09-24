@@ -107,16 +107,16 @@ export default function Header() {
         </div>
       </div> */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-10">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center relative justify-end h-22">
           {/* Left: UPM Brand Logo */}
           <Link
             href="/"
-            className="flex items-center gap-3.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-green-accent rounded-lg p-1"
+            className="flex absolute top-0 left-0 items-center gap-3.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-green-accent rounded-lg p-1"
           >
             <img
               src="/logo.png"
               alt="Union Paper Mills UAE"
-              className="h-16 w-auto group-hover:opacity-90 transition-opacity duration-200"
+              className="h-32 w-auto group-hover:opacity-90 transition-opacity duration-200"
             />
           </Link>
 

@@ -6,18 +6,18 @@ import { products as initialProducts } from "@/data/products";
 const productLayoutData = [
   {
     data: initialProducts[0],
-    imageHeight: "h-72 w-auto",
     isWide: false,
+    imageSize: "w-7xl",
   },
   {
     data: initialProducts[1],
-    imageHeight: "h-72 w-auto",
     isWide: false,
+    imageSize: "w-6xl",
   },
   {
     data: initialProducts[2],
-    imageHeight: "h-72 w-auto",
     isWide: false,
+    imageSize: "w-6xl",
   },
 ];
 
@@ -44,25 +44,27 @@ export default function OurProducts() {
                 className={`group bg-white rounded-2xl h-full overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-all duration-300 h-full`}
               >
                 <div>
-                  <div className={`relative w-full ${item.imageHeight}`}>
+                  <div
+                    className={`relative w-full flex justify-center items-center h-72 overflow-hidden`}
+                  >
                     <Image
                       src={product.image}
                       alt={product.title}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      width={1000}
+                      height={1000}
+                      className={`object-contain ${item.imageSize} h-auto`}
                     />
                   </div>
-                  <div className="p-5 sm:p-6">
-                    <h3 className="text-xl font-bold text-dark-green mb-2.5">
+                  <div className="p-4">
+                    <h3 className="text-xl font-bold text-dark-green mb-1">
                       {product.title}
                     </h3>
-                    <p className="text-[#5a5a5a] text-sm leading-relaxed mb-6">
+                    <p className="text-[#5a5a5a] text-sm leading-relaxed">
                       {product.description}
                     </p>
                   </div>
                 </div>
-                <div className="px-5 pb-5 sm:px-6 sm:pb-6 pt-0 mt-auto">
+                <div className="px-5 pb-4 sm:px-6 pt-0 mt-auto">
                   <Link
                     href={product.link}
                     className="inline-flex items-center gap-1.5 text-[#2e6b38] font-medium text-sm hover:gap-2.5 transition-all duration-200"
