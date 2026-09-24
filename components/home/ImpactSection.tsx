@@ -1,6 +1,6 @@
 export default function ImpactSection() {
   return (
-    <section className="w-full bg-white py-16 px-4 flex flex-col items-center justify-center text-[#F4F3ED]">
+    <section className="w-full bg-white pb-10 px-4 flex flex-col items-center justify-center text-[#F4F3ED]">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl lg:text-5xl text-dark-green font-normal mb-14 uppercase text-center">
         Our Impact

@@ -8,7 +8,7 @@ const Newsroom = () => {
         "M.A.H.Y. Khoory proudly celebrated the 54th Eid Al Etihad with a vibrant event that brought employees...",
       date: "December 2, 2025",
       imageUrl:
-        "https://www.upmuae.com/en/admin/common/file_manager/images/28.jpg",
+        "https://rabin.com/wp-content/uploads/2019/04/Paper-Processing-Hero.jpg",
     },
     {
       title: "Participation at The Big 5",
@@ -16,7 +16,7 @@ const Newsroom = () => {
         "M.A.H.Y. Khoory made a strong impact at The Big 5, engaging with visitors, clients, and industry...",
       date: "November 20, 2025",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_H89N78G0YO1vQ7y3F25oq2JXNh8MVSvRqV1v6NIJA&s=10",
+        "https://content.jdmagicbox.com/comp/meerut/n6/9999px121.x121.190610195522.p9n6/catalogue/paswara-papers-ltd-mohiuddinpur-meerut-paper-tube-manufacturers-bwofxkaknn.jpg",
     },
     {
       title: "ProPaper Dubai 2025 Presence",
@@ -24,7 +24,7 @@ const Newsroom = () => {
         "M.A.H.Y. Khoory achieved a successful presence at ProPaper Dubai 2025, connecting with global...",
       date: "October 15, 2025",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj1_P7D8Ff1bRY9Uh2J0Xg1A9nZAujH73Olmqtdv6FpQ&s=10",
+        "https://thepulpandpapertimes.com/Uploads/News/Main/2026/9/12/papermillinput.webp",
     },
   ];
 
@@ -71,7 +71,7 @@ const Newsroom = () => {
           {/* Left Column - Featured News */}
           <div className="flex flex-col pr-0 lg:pr-4">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tscFQudasvGYF_A-EBHvzU9ZHYekpsafizl74dsgP1CqbSvnESOhV_rw&s=10"
+              src="https://worldpapermill.com/uploads/paper_mill_equipment_line_hero_800737690d.webp"
               alt="Warehouse Event Banner"
               className="w-full h-auto object-cover rounded-sm mb-6 shadow-lg"
             />

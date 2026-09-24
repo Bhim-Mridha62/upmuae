@@ -23,7 +23,7 @@ export default function SustainabilityPillars() {
   ];
 
   return (
-    <section className="bg-white py-20 px-6">
+    <section className="bg-white pb-10 pt-8 md:pt-0 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center text-3xl md:text-4xl font-bold tracking-wider text-dark-green mb-16 uppercase">
           Our Sustainability Pillars
